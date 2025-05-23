@@ -1,8 +1,10 @@
-import { Router } from 'express';
+import { Router } from "express";
+
+import notificationRoutes from "./notification.routes";
 
 const router = Router();
 
-// Add your routes here
-// router.use('/users', userRoutes);
+// Routes de notification
+router.use("/notification", notificationRoutes);
 
 export default router;
