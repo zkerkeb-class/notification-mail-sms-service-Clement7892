@@ -67,7 +67,7 @@ class EmailService {
 
     return this.sendEmail({
       to: email,
-      subject: "Confirmez votre adresse email pour CRM AndreClaveria",
+      subject: "Confirmez votre adresse email pour CRM Clement7892",
       html,
       text,
       metadata: {

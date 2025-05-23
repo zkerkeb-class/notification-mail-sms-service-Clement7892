@@ -14,7 +14,7 @@ export const getConfirmationEmailTemplate = (
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Confirmation de votre compte CRM AndreClaveria</title>
+    <title>Confirmation de votre compte CRM Clement7892</title>
     <style>
       body {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -68,11 +68,11 @@ export const getConfirmationEmailTemplate = (
   <body>
     <div class="container">
       <div class="header">
-        <div class="logo">CRM AndreClaveria</div>
+        <div class="logo">CRM Clement7892</div>
       </div>
       <div class="content">
         <h2>Bienvenue ${username} !</h2>
-        <p>Merci de vous être inscrit sur la plateforme CRM AndreClaveria. Pour activer votre compte et commencer à utiliser notre CRM, veuillez confirmer votre adresse e-mail en cliquant sur le bouton ci-dessous.</p>
+        <p>Merci de vous être inscrit sur la plateforme CRM Clement7892. Pour activer votre compte et commencer à utiliser notre CRM, veuillez confirmer votre adresse e-mail en cliquant sur le bouton ci-dessous.</p>
         
         <div style="text-align: center;">
           <a href="${confirmUrl}" class="button">Confirmer mon adresse e-mail</a>
@@ -83,11 +83,11 @@ export const getConfirmationEmailTemplate = (
         
         <p>Ce lien expirera dans 24 heures pour des raisons de sécurité.</p>
         
-        <p>Cordialement,<br>L'équipe CRM AndreClaveria</p>
+        <p>Cordialement,<br>L'équipe CRM Clement7892</p>
       </div>
       <div class="footer">
         <p>Cet e-mail a été envoyé automatiquement, merci de ne pas y répondre.</p>
-        <p>&copy; ${new Date().getFullYear()} CRM AndreClaveria. Tous droits réservés.</p>
+        <p>&copy; ${new Date().getFullYear()} CRM Clement7892. Tous droits réservés.</p>
       </div>
     </div>
   </body>
@@ -98,17 +98,17 @@ export const getConfirmationEmailTemplate = (
   const text = `
   Bienvenue ${username} !
   
-  Merci de vous être inscrit sur la plateforme CRM AndreClaveria. Pour activer votre compte et commencer à utiliser notre CRM, veuillez confirmer votre adresse e-mail en visitant le lien suivant :
+  Merci de vous être inscrit sur la plateforme CRM Clement7892. Pour activer votre compte et commencer à utiliser notre CRM, veuillez confirmer votre adresse e-mail en visitant le lien suivant :
   
   ${confirmUrl}
   
   Ce lien expirera dans 24 heures pour des raisons de sécurité.
   
   Cordialement,
-  L'équipe CRM AndreClaveria
+  L'équipe CRM Clement7892
   
   Cet e-mail a été envoyé automatiquement, merci de ne pas y répondre.
-  © ${new Date().getFullYear()} CRM AndreClaveria. Tous droits réservés.
+  © ${new Date().getFullYear()} CRM Clement7892. Tous droits réservés.
     `;
 
   return { html, text };

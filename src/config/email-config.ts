@@ -49,8 +49,8 @@ const transporter = {
 
       // Définir l'expéditeur dans le format attendu par Brevo
       sendSmtpEmail.sender = {
-        name: mailOptions.from?.name || "CRM AndreClaveria",
-        email: mailOptions.from?.address || "notifications@andreclaveria.fr"
+        name: mailOptions.from?.name || "CRM Clement7892",
+        email: mailOptions.from?.address || "notifications@clement7892.fr"
       };
 
       // Assurez-vous que email est bien défini dans la propriété sender
