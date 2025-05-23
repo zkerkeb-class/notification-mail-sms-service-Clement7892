@@ -51,7 +51,7 @@ const NotificationSchema: Schema = new Schema(
     }
   },
   {
-    timestamps: true // Ajoute automatiquement createdAt et updatedAt
+    timestamps: true
   }
 );
 
